@@ -58,4 +58,5 @@ Click [here](docs/api.md) to view the API documentations.
 This API is using Redis as caching database with predis driver the following caching scenarios:
 - Perform cache hit/store in each read operation.
 - Clear cache on create, update, and delete operation.
+
 By performing this caching strategy, the API could serve robust data management service for library with millions of books and authors data.
